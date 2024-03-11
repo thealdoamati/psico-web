@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import TerapiaIMG from '../assets/image/Psicologa.webp';
-import ProblemasCognitivos from '../assets/image/ProblemasCognitivos.png';
-import Consultorio from '../assets/image/Consultório.png';
+import TerapiaIMG from '../../assets/image/Psicologa.webp';
+import ProblemasCognitivos from '../../assets/image/ProblemasCognitivos.png';
+import Consultorio from '../../assets/image/Consultório.png';
 
-export default function Home() {
+export default function TerapiaCognitiva() {
   return (
     <main className="flex flex-col gap-40 bg-[#F2F2F2]">
       <section className="relative w-full h-auto">
@@ -57,7 +57,7 @@ export default function Home() {
         </div>
       </section>
       <section className="flex justify-center w-full">
-        <div className="w-[1140px] flex gap-16 ms:gap-2 items-center">
+        <div className="w-[1140px] flex gap-16 items-center">
           <div className="bg-[#EED6D3]  min-w-[350px] flex flex-col justify-center gap-2 h-full text-[#67595E] text-center px-10 py-8 rounded-xl">
             <h3 className="font-bold text-xl">Evidência<br /> e Eficiência</h3>
             <p className="text-sm">Tratamentos respaldados cientificamente para resultados comprovadamente eficazes.</p>
@@ -133,7 +133,7 @@ export default function Home() {
           </div>
           <Image
             src={Consultorio}
-            alt="Imagem Problemas Terapia Psicólogo"
+            alt="Consultório Psicóloga Hellen Pereira"
             layout="responsive"
             height={519}
             width={561}
