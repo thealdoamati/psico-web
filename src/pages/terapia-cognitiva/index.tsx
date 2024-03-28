@@ -4,6 +4,7 @@ import TerapiaIMG from '../../assets/image/Psicologa.webp';
 import TerapiaMobileIMG from '../../assets/image/PsicologaMobile.png'
 import ProblemasCognitivos from '../../assets/image/ProblemasCognitivos.png';
 import Consultorio from '../../assets/image/Consultório.png';
+import Link from "next/link";
 
 export default function TerapiaCognitiva() {
   return (
@@ -47,9 +48,9 @@ export default function TerapiaCognitiva() {
                 <h1 className="font-bold text-[24px] leading-7 md:leading-0 lg:text-[32px]">Agende agora sua consulta !</h1>
                 <p className="text-[14px] lg:text-[15px]">A Psicóloga Hellen atende em consultório ou por telemedicina.</p>
               </div>
-              <button className="text-[12px] md:text-[16px] px-10 py-2 rounded-[20px] h-fit md:whitespace-nowrap text-white bg-[#169244] hover:bg-[#137938] transition duration-500 font-semibold">
+              <Link href="https://api.whatsapp.com/send/?phone=%2B5511937698342&text=Ol%C3%A1!+Gostaria+de+marcar+uma+consulta+de+TCC+com+a+Psic%C3%B3loga+Hellen.&utm_source=Chat+site&utm_medium=Whatsapp&utm_campaign=Site+hellen+v1" target="_blank" className="text-[12px] md:text-[16px] px-10 py-2 rounded-[20px] h-fit md:whitespace-nowrap text-white bg-[#169244] hover:bg-[#137938] transition duration-500 font-semibold">
                 AGENDAR CONSULTA
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -141,9 +142,9 @@ export default function TerapiaCognitiva() {
           <div className="flex flex-col gap-3 text-[#67595E]">
             <span className="text-[24px] md:text-[36px] font-bold">Agende Uma Consulta em Nosso Espaço</span>
             <span>Na região do Campo Limpo, em São Paulo, a Psicóloga Hellen E. Pereira recebe seus pacientes com dedicação e expertise. O atendimento é realizado de segunda a sexta, das 12h às 18h.</span>
-            <button className="px-10 py-2 mt-4 w-full md:w-fit md:mx-0 mx-auto rounded-[20px] h-fit text-white bg-[#169244] hover:bg-[#137938] transition duration-500 font-semibold">
+            <Link href="https://api.whatsapp.com/send/?phone=%2B5511937698342&text=Ol%C3%A1!+Gostaria+de+marcar+uma+consulta+de+TCC+com+a+Psic%C3%B3loga+Hellen.&utm_source=Chat+site&utm_medium=Whatsapp&utm_campaign=Site+hellen+v1" target="_blank" className="px-10 py-2 mt-4 w-full md:w-fit md:mx-0 mx-auto rounded-[20px] h-fit text-white bg-[#169244] hover:bg-[#137938] transition duration-500 font-semibold">
               AGENDAR CONSULTA
-            </button>
+            </Link>
           </div>
           <Image
             src={Consultorio}
@@ -158,9 +159,9 @@ export default function TerapiaCognitiva() {
       <section className="flex justify-center px-10 w-full bg-[#67595E] py-10">
         <div className="w-[1140px] md:px-10 flex flex-col gap-6 justify-center items-center">
           <h2 className="text-[22px] md:text-[30px] text-white font-bold text-center">Entramos em contato para marcar sua consulta</h2>
-          <button className="px-10 py-2 w-fit rounded-[20px] h-fit text-[#67595E] bg-white hover:bg-[#f7eef1] transition duration-500 font-semibold">
+          <Link href="https://api.whatsapp.com/send/?phone=%2B5511937698342&text=Ol%C3%A1!+Gostaria+de+marcar+uma+consulta+de+TCC+com+a+Psic%C3%B3loga+Hellen.&utm_source=Chat+site&utm_medium=Whatsapp&utm_campaign=Site+hellen+v1" target="_blank" className="px-10 py-2 w-fit rounded-[20px] h-fit text-[#67595E] bg-white hover:bg-[#f7eef1] transition duration-500 font-semibold">
             RECEBER LIGAÇÃO
-          </button>
+          </Link>
         </div>
       </section>
 

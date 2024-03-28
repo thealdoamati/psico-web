@@ -14,7 +14,7 @@ export function Header() {
             <Link href="/terapia-cognitiva" passHref><button className="hover:text-[#7a7272] transition duration-300">TERAPIA COGNITIVA</button></Link>
             <Link href="/aba" passHref><button className="hover:text-[#7a7272] transition duration-300">ABA</button></Link>
             <Link href="/fale-conosco" passHref><button className="hover:text-[#7a7272] transition duration-300">FALE CONOSCO</button></Link>
-            <Link href="/agendar" passHref><button className="px-6 py-2 rounded-[20px] h-fit text-white bg-[#169244] hover:bg-[#137938] transition duration-500">Agendar</button></Link>
+            <Link href="https://api.whatsapp.com/send/?phone=%2B5511937698342&text=Ol%C3%A1!+Gostaria+de+marcar+uma+consulta+com+a+Psic%C3%B3loga+Hellen.&utm_source=Chat+site&utm_medium=Whatsapp&utm_campaign=Site+hellen+v1" target="_blank"><button className="px-6 py-2 rounded-[20px] h-fit text-white bg-[#169244] hover:bg-[#137938] transition duration-500">Agendar</button></Link>
           </div>
         </div>
       </div>

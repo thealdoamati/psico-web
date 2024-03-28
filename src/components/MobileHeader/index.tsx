@@ -30,7 +30,7 @@ export function MobileHeader() {
             <div onClick={closeMenu}><Link href="/terapia-cognitiva" className="text-[#67595E] transition duration-300 block text-center">TERAPIA COGNITIVA</Link></div>
             <div onClick={closeMenu}><Link href="/aba" className="text-[#67595E] transition duration-300 block text-center">ABA</Link></div>
             <div onClick={closeMenu}><Link href="/fale-conosco" className="text-[#67595E] transition duration-300 block text-center">FALE CONOSCO</Link></div>
-            <div onClick={closeMenu}><Link href="/agendar" className="px-6 py-2 rounded-[20px] h-fit text-white bg-[#169244] hover:bg-[#137938] transition duration-500 block text-center">Agendar</Link></div>
+            <div onClick={closeMenu}><Link href="https://api.whatsapp.com/send/?phone=%2B5511937698342&text=Ol%C3%A1!+Gostaria+de+marcar+uma+consulta+com+a+Psic%C3%B3loga+Hellen.&utm_source=Chat+site&utm_medium=Whatsapp&utm_campaign=Site+hellen+v1" target="_blank" className="px-6 py-2 rounded-[20px] h-fit text-white bg-[#169244] hover:bg-[#137938] transition duration-500 block text-center">Agendar</Link></div>
           </div>
         </div>
       </div>
