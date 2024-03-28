@@ -5,8 +5,8 @@ import Link from "next/link";
 
 export function Header() {
   return (
-    <div className="flex justify-center px-10 py-3 w-full bg-[#F2F2F2]">
-      <div className="w-[1140px]">
+    <div className="flex justify-center py-3 w-full bg-[#F2F2F2]">
+      <div className="w-[1140px] px-10">
         <div className="flex w-full items-center font-semibold text-[#67595E] justify-between">
           <Image quality={100} src={logoHellen} alt="Logo Psicóloga Hellen" />
           <div className="flex items-center text-[12px] lg:text-[16px] justify-center gap-7">

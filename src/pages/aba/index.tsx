@@ -34,8 +34,8 @@ export default function ABA() {
         <div className="absolute top-0 left-0 px-10 md:px-0 w-full h-full flex justify-center items-start mt-14 md:mt-0 md:items-center">
           {/* Conteúdo centralizado horizontal e verticalmente */}
           <div className="flex md:px-10 flex-col gap-4 lg:gap-20 max-w-[1140px] w-full mx-auto space-y-4 text-center items-end"> 
-            <div className="max-w-[540px] text-left flex flex-col gap-2 md:gap-5">
-            <h1 className="text-[28px] lg:text-[40px] text-white font-bold">
+            <div className="max-w-[540px] text-left flex flex-col gap-2 md:gap-2">
+            <h1 className="text-[28px] lg:text-[46px] text-white font-bold">
               Terapia ABA
             </h1>
             <p className="text-[14px] lg:text-[18px] font-light text-white">
@@ -56,9 +56,9 @@ export default function ABA() {
       </section>
       <section className="flex px-10 md:px-0 justify-center w-full">
         <div className="w-[1140px] md:px-10 flex flex-col md:flex-row gap-10 items-center">
-          <div className="flex flex-col gap-0 md:gap-3 text-[#67595E]">
+          <div className="flex flex-col gap-0 md:gap-2 text-[#67595E]">
             <span className="text-[22px] md:text-[26px]">Por que escolher a</span>
-            <span className="text-[28px] md:text-[36px] font-bold mb-4 md:mb-0">Terapia ABA?</span>
+            <span className="text-[28px] md:text-[46px] font-bold mb-4 md:mb-0">Terapia ABA?</span>
             <span className="text-[14px] md:text-[16px] mb-2 md:mb-0">A Terapia ABA é reconhecida mundialmente por sua eficácia no desenvolvimento de habilidades de comunicação, sociais, de aprendizado, e na redução de comportamentos desafiadores.</span>
             <span className="text-[14px] md:text-[16px]">Com abordagens baseadas em evidências, oferecemos um caminho personalizado para cada paciente, visando a melhoria contínua e uma vida mais plena e feliz.</span>
           </div>
@@ -70,7 +70,7 @@ export default function ABA() {
           />
         </div>
       </section>
-      <section className="flex px-10 justify-center w-full">
+      <section className="flex justify-center w-full">
         <div className="w-[1140px] px-10 flex flex-col md:flex-row md:gap-16 gap-8 items-center justify-center">
           <div className="bg-[#EED6D3] w-full lg:w-[350px] flex flex-col gap-2 justify-center h-full text-[#67595E] text-center px-10 py-8 rounded-xl">
             <h3 className="font-bold text-md md:text-xl">Desenvolvimento de Habilidades</h3>
@@ -131,7 +131,7 @@ export default function ABA() {
           <div className="flex flex-col gap-3 text-[#67595E]">
             <span className="text-[24px] md:text-[36px] font-bold">Agende Uma Consulta em Nosso Espaço</span>
             <span>Na região do Campo Limpo, em São Paulo, a Psicóloga Hellen E. Pereira recebe seus pacientes com dedicação e expertise. O atendimento é realizado de segunda a sexta, das 12h às 18h.</span>
-            <button className="px-10 py-2 mt-4 md:mt-0 w-full md:w-fit md:mx-0 mx-auto rounded-[20px] h-fit text-white bg-[#169244] hover:bg-[#137938] transition duration-500 font-semibold">
+            <button className="px-10 py-2 mt-4 w-full md:w-fit md:mx-0 mx-auto rounded-[20px] h-fit text-white bg-[#169244] hover:bg-[#137938] transition duration-500 font-semibold">
               AGENDAR CONSULTA
             </button>
           </div>
