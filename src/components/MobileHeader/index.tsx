@@ -11,7 +11,7 @@ export function MobileHeader() {
       <div className="max-w-[1140px] w-full px-10">
         <div className="flex flex-col">
           <div className="flex justify-between items-center">
-            <Image quality={100} src={logoHellen} alt="Logo Psicóloga Hellen" width={190} height={50} />
+            <Image quality={100} src={logoHellen} alt="Logo Psicóloga Hellen" width={210} height={50} />
             <button onClick={() => setIsOpen(!isOpen)} className="text-[#67595E] hover:text-[#7a7272] md:hidden">
               <span className="text-2xl">☰</span>
             </button>

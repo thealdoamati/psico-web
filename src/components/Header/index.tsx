@@ -5,11 +5,11 @@ import Link from "next/link";
 
 export function Header() {
   return (
-    <div className="flex justify-center py-3 w-full bg-[#F2F2F2]">
+    <div className="flex justify-center px-10 py-3 w-full bg-[#F2F2F2]">
       <div className="w-[1140px]">
         <div className="flex w-full items-center font-semibold text-[#67595E] justify-between">
           <Image quality={100} src={logoHellen} alt="Logo Psicóloga Hellen" />
-          <div className="flex items-center justify-center gap-7">
+          <div className="flex items-center text-[12px] lg:text-[16px] justify-center gap-7">
             <Link href="/" passHref><button className="hover:text-[#7a7272] transition duration-300">INICIO</button></Link>
             <Link href="/terapia-cognitiva" passHref><button className="hover:text-[#7a7272] transition duration-300">TERAPIA COGNITIVA</button></Link>
             <Link href="/aba" passHref><button className="hover:text-[#7a7272] transition duration-300">ABA</button></Link>

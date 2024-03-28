@@ -6,10 +6,10 @@ import locationIcon from '../../assets/icons/location-icon.svg'
 
 export function Footer() {
   return (
-    <div className="flex px-10 md:px-0 justify-center py-14 w-full bg-[#F2F2F2]">
-      <div className="w-[1140px] flex md:flex-row flex-col gap-20">
-        <div className="flex flex-col md:flex-row w-full text-[#67595E] justify-between">
-          <div className="flex flex-col max-w-[300px] gap-1">
+    <div className="flex md:px-0 justify-center py-14 w-full bg-[#F2F2F2]">
+      <div className="w-[1140px] px-10 flex flex-col gap-20">
+        <div className="flex flex-col gap-8 md:gap-0 md:flex-row w-full text-[#67595E] justify-between">
+          <div className="flex flex-col md:max-w-[300px] gap-1">
             <Image quality={100} src={logoHellen} alt="Logo Psicóloga Hellen" />
             <p className="text-sm">É formada em Psicologia. Pós graduanda em terapia cognitivo comportamental. Atua em consultório particular na área de Psicologia Clínica.</p>
           </div>
