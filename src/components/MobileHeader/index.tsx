@@ -8,13 +8,15 @@ export function MobileHeader() {
 
   return (
     <div className="flex justify-center py-3 w-full bg-[#F2F2F2]">
-      <div className="max-w-[1140px] w-full px-4">
-        <div className="flex items-center justify-between">
-          <Image quality={100} src={logoHellen} alt="Logo Psicóloga Hellen" width={100} height={50} />
-          <button onClick={() => setIsOpen(!isOpen)} className="text-[#67595E] hover:text-[#7a7272] md:hidden">
-            <span className="text-2xl">☰</span>
-          </button>
-          <div className={`flex-col md:flex md:flex-row md:items-center md:justify-center gap-7 ${isOpen ? "flex" : "hidden"}`}>
+      <div className="max-w-[1140px] w-full px-10">
+        <div className="flex flex-col">
+          <div className="flex justify-between items-center">
+            <Image quality={100} src={logoHellen} alt="Logo Psicóloga Hellen" width={190} height={50} />
+            <button onClick={() => setIsOpen(!isOpen)} className="text-[#67595E] hover:text-[#7a7272] md:hidden">
+              <span className="text-2xl">☰</span>
+            </button>
+          </div>
+          <div className={`flex-col py-5 md:flex md:flex-row md:items-center md:justify-center gap-7 ${isOpen ? "flex" : "hidden"}`}>
             <Link href="/"><div className="hover:text-[#7a7272] transition duration-300 block text-center">INICIO</div></Link>
             <Link href="/terapia-cognitiva"><div className="hover:text-[#7a7272] transition duration-300 block text-center">TERAPIA COGNITIVA</div></Link>
             <Link href="/aba"><div className="hover:text-[#7a7272] transition duration-300 block text-center">ABA</div></Link>
