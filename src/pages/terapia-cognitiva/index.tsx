@@ -39,7 +39,7 @@ export default function TerapiaCognitiva() {
               <h1 className="text-[28px] lg:text-[46px] md:leading-[50px] text-white font-bold">
                 Terapia Cognitivo Comportamental
               </h1>
-              <p className="text-[14px] lg:text-[18px] font-light text-white">
+              <p className="text-[14px] lg:text-[18px] font-regular md:font-light text-white">
                 Descubra o poder da Terapia Cognitiva Comportamental (TCC) com a Psicóloga Hellen Pereira, especialista em desbloquear o potencial de sua mente.
               </p>
             </div>
