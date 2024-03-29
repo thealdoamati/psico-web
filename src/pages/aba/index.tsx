@@ -5,10 +5,27 @@ import ABAmobileIMG from '../../assets/image/ABAmobile.png';
 import CriancasTerapia from '../../assets/image/CriancasTerapia.png';
 import Consultorio from '../../assets/image/Consultório.png';
 import Link from "next/link";
+import Head from "next/head";
 
 export default function ABA() {
   return (
     <main className="flex flex-col gap-16 md:gap-40 bg-[#F2F2F2]">
+      <Head>
+        <title>Terapia ABA para Autismo | Psicóloga Hellen Pereira</title>
+        <meta
+          name="description"
+          content="A Psicóloga Hellen Pereira é especialista em Terapia ABA para autismo e desafios comportamentais, oferecendo atendimento personalizado para crianças em São Paulo."
+        ></meta>
+        <meta
+          name="keywords"
+          content="Terapia ABA, Autismo, Psicóloga Hellen Pereira, Análise do Comportamento Aplicada, Desenvolvimento Infantil, São Paulo"
+        ></meta>
+        <meta property="og:title" content="Psicóloga Hellen Pereira | Terapia ABA para Autismo" />
+        <meta
+          property="og:description"
+          content="Descubra como a Terapia ABA pela Psicóloga Hellen Pereira pode ajudar crianças com autismo a desenvolver habilidades de comunicação e comportamento em São Paulo."
+        />
+      </Head>
       <section className="relative w-full lg:h-auto">
         <div className="md:block hidden">
           <Image

@@ -5,10 +5,27 @@ import TerapiaMobileIMG from '../../assets/image/PsicologaMobile.png'
 import ProblemasCognitivos from '../../assets/image/ProblemasCognitivos.png';
 import Consultorio from '../../assets/image/Consultório.png';
 import Link from "next/link";
+import Head from "next/head";
 
 export default function TerapiaCognitiva() {
   return (
     <main className="flex flex-col gap-16 md:gap-40 bg-[#F2F2F2]">
+      <Head>
+        <title>Terapia Cognitivo-Comportamental (TCC) | Psicóloga Hellen Pereira</title>
+        <meta
+          name="description"
+          content="Descubra o poder da Terapia Cognitivo-Comportamental com a Psicóloga Hellen Pereira. Especialista em tratamento de ansiedade, depressão, e outros desafios psicológicos em São Paulo."
+        ></meta>
+        <meta
+          name="keywords"
+          content="Psicologia TCC, Terapia Cognitivo-Comportamental, Psicóloga Hellen Pereira, Tratamento de Ansiedade, Depressão, São Paulo"
+        ></meta>
+        <meta property="og:title" content="Psicóloga Hellen Pereira | Especialista em TCC" />
+        <meta
+          property="og:description"
+          content="A Psicóloga Hellen Pereira oferece sessões de Terapia Cognitivo-Comportamental para superação de ansiedade, depressão, e outros desafios mentais."
+        />
+      </Head>
       <section className="relative w-full lg:h-auto">
         <div className="md:block hidden">
           <Image
