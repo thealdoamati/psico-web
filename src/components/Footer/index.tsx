@@ -16,17 +16,17 @@ export function Footer() {
           </div>
           <div className="flex flex-col items-start gap-4">
             <span className="font-semibold">TERAPIA COGNITIVA</span>
-            <button className="hover:text-[#5e5555] transition duration-300">Terapia Cognitiva</button>
-            <button className="hover:text-[#5e5555] transition duration-300">ABA</button>
+            <Link href="/terapia-cognitiva" passHref><button className="hover:text-[#5e5555] transition duration-300">Terapia Cognitiva</button></Link>
+            <Link href="/aba" passHref><button className="hover:text-[#5e5555] transition duration-300">ABA</button></Link>
           </div>
           <div className="flex flex-col items-start gap-4">
             <span className="font-semibold">ATENDIMENTO</span>
             <Link href="https://api.whatsapp.com/send/?phone=%2B5511937698342&text=Ol%C3%A1!+Gostaria+de+marcar+uma+consulta+com+a+Psic%C3%B3loga+Hellen.&utm_source=Chat+site&utm_medium=Whatsapp&utm_campaign=Site+hellen+v1" target="_blank" className="hover:text-[#5e5555] transition duration-300 flex gap-2">
               <Image src={whatsappIcon} alt="Whatsapp Icon"/>+55 (11) 93769-8342
             </Link>
-            <button className="hover:text-[#5e5555] transition duration-300 flex gap-2 text-left">
+            <div className="hover:text-[#5e5555] transition duration-300 flex gap-2 text-left">
               <Image src={locationIcon} alt="Whatsapp Icon"/>Estr. de Itapecerica, 2720 - Consultório 1<br />Campo Limpo, SP
-            </button>
+            </div>
           </div>
         </div>
         <span className="text-[#67595E] flex text-sm justify-center">Copyright © 2024. Todos os direitos reservados</span>
