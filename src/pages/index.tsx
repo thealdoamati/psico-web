@@ -48,7 +48,9 @@ export default function Home() {
                 </p>
               </div>
               <button className="text-[12px] md:text-[16px] px-10 py-2 rounded-[20px] h-fit md:whitespace-nowrap text-white bg-[#169244] hover:bg-[#137938] transition duration-500 font-semibold">
-                AGENDAR CONSULTA
+                <Link href="https://api.whatsapp.com/send/?phone=%2B5511937698342&text=Ol%C3%A1!+Gostaria+de+marcar+uma+consulta+de+ABA+com+a+Psic%C3%B3loga+Hellen.&utm_source=Chat+site&utm_medium=Whatsapp&utm_campaign=Site+hellen+v1" target="_blank" className="text-[12px] md:text-[16px] px-10 py-2 rounded-[20px] h-fit md:whitespace-nowrap text-white bg-[#169244] hover:bg-[#137938] transition duration-500 font-semibold">
+                  AGENDAR CONSULTA
+                </Link>
               </button>
             </div>
           </div>
@@ -106,7 +108,9 @@ export default function Home() {
             <span className="text-[24px] md:text-[36px] font-bold">Agende Uma Consulta em Nosso Espaço</span>
             <span>Na região do Campo Limpo, em São Paulo, a Psicóloga Hellen E. Pereira recebe seus pacientes com dedicação e expertise. O atendimento é realizado de segunda a sexta, das 12h às 18h.</span>
             <button className="px-10 py-2 mt-4 w-full md:w-fit md:mx-0 mx-auto rounded-[20px] h-fit text-white bg-[#169244] hover:bg-[#137938] transition duration-500 font-semibold">
-              AGENDAR CONSULTA
+              <Link href="https://api.whatsapp.com/send/?phone=%2B5511937698342&text=Ol%C3%A1!+Gostaria+de+marcar+uma+consulta+de+ABA+com+a+Psic%C3%B3loga+Hellen.&utm_source=Chat+site&utm_medium=Whatsapp&utm_campaign=Site+hellen+v1" target="_blank" className="text-[12px] md:text-[16px] px-10 py-2 rounded-[20px] h-fit md:whitespace-nowrap text-white bg-[#169244] hover:bg-[#137938] transition duration-500 font-semibold">
+                AGENDAR CONSULTA
+              </Link>
             </button>
           </div>
           <Image
