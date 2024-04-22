@@ -150,7 +150,7 @@ export default function TerapiaCognitiva() {
             </div>
           </div>
           <div className="text-center mx-4 md:mx-0">
-            <p className="text-sm font-bold">E muitas mais...</p>
+            <p className="text-sm font-bold">E muito mais...</p>
           </div>
         </div>
       </section>

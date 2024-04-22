@@ -60,7 +60,7 @@ export default function ABA() {
              Explorando o potencial da Análise do Comportamento Aplicada (ABA) com a Psicóloga Hellen Pereira, especializada em criar caminhos transformadores para crianças.
             </p>
             </div>
-            <div className="flex md:flex-row  gap-3 md:gap-0 flex-col bg-[#E8B4B8]/75 items-center py-8 lg:py-6 px-7 lg:px-10 rounded-xl justify-between w-full">
+            <div className="flex md:flex-row  gap-3 md:gap-0 flex-col bg-[#ffffff]/75 items-center py-8 lg:py-6 px-7 lg:px-10 rounded-xl justify-between w-full">
               <div className="text-[#574b4f] text-center md:text-left flex flex-col gap-3">
                 <h1 className="font-bold text-[24px] leading-7 md:leading-0 lg:text-[32px]">Agende agora a sua consulta !</h1>
                 <p className="text-[14px] lg:text-[15px]">Atendemos com foco em autismo e desafios de comportamento através de sessões personalizadas.</p>
