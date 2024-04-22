@@ -23,8 +23,8 @@ function MyApp({ Component, pageProps }: AppProps) {
           property="og:description"
           content="Descubra como a Terapia ABA e TCC com a Psicóloga Hellen Pereira pode ajudar no desenvolvimento pessoal e melhorar a qualidade de vida."
         />
-        <meta property="og:url" content="URL_DO_SITE_AQUI" />
-        <meta property="og:image" content="URL_DA_IMAGEM_DE_DESTAQUE_AQUI" />
+        <meta property="og:url" content="http://www.psicologahellenpereira.com.br/" />
+        <meta property="og:image" content="https://www.psicologahellenpereira.com/api/image" />
         <meta property="og:image:alt" content="Consultório da Psicóloga Hellen Pereira" />
       </Head>
       <Component {...pageProps} />
