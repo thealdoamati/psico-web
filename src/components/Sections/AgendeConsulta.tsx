@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const AgendeConsulta = () => {
   return (
-    <section className="flex px-10 md:px-0 bg-white justify-center w-full">
+    <section className="flex py-10 px-10 md:px-0 bg-white justify-center w-full">
       <div className="w-[1140px] md:px-10 flex md:flex-row flex-col gap-10 items-center">
         <div className="flex flex-col gap-3 text-[#67595E]">
           <span className="text-[24px] md:text-[36px] font-bold">
@@ -15,7 +15,7 @@ export const AgendeConsulta = () => {
             Pereira recebe seus pacientes com dedicação e expertise. O
             atendimento é realizado de segunda a sexta, das 12h às 18h.
           </span>
-          <button className="text-[12px] md:text-[16px] px-10 py-2 rounded-[20px] my-2 w-fit h-fit md:whitespace-nowrap text-white bg-[#169244] hover:bg-[#137938] transition duration-500 font-semibold">
+          <button className="btn_agendamento text-[12px] md:text-[16px] flex justify-center px-10 py-2 rounded-[20px] my-2 md:w-fit h-fit md:whitespace-nowrap text-white bg-[#169244] hover:bg-[#137938] transition duration-500 font-semibold">
             <Link
               href="https://api.whatsapp.com/send/?phone=%2B5511937698342&text=Ol%C3%A1!+Gostaria+de+marcar+uma+consulta+de+ABA+com+a+Psic%C3%B3loga+Hellen.&utm_source=Chat+site&utm_medium=Whatsapp&utm_campaign=Site+hellen+v1"
               target="_blank"

@@ -15,13 +15,13 @@ import FamilyIcon from "../assets/icons/family-icon.svg";
 import { AgendeConsulta } from "@/components/Sections/AgendeConsulta";
 export default function Home() {
   return (
-    <main className="flex flex-col gap-16 md:gap-40 bg-[#ffffff]">
-      <section className="w-full bg-gradient-to-r py-14 from-[#FFFFFF] to-[#EED6D3]">
+    <main className="flex flex-col md:gap-40 bg-[#ffffff]">
+      <section className="w-full mb-5 py-10 md:bg-gradient-to-r pt-10 pb-14 md:py-14 from-[#FFFFFF] to-[#EED6D3]">
         {/* Conteúdo centralizado horizontal e verticalmente */}
-        <div className="flex md:px-10 gap-20 flex-col md:flex-row w-[1140px] justify-between items-center mx-auto">
-          <div className="flex flex-col gap-3 lg:gap-4">
+        <div className="flex px-10 gap-10 md:gap-20 flex-col md:flex-row max-w-[1140px] justify-between items-center mx-auto">
+          <div className="flex flex-col gap-5 lg:gap-4">
             <div className="text-[#67595E] text-center md:text-left flex flex-col gap-3 lg:gap-4">
-              <h1 className="text-[28px] lg:leading-[45px] lg:text-[34px] font-bold">
+              <h1 className="text-[22px] lg:leading-[45px] lg:text-[34px] font-bold">
                 Marque sua Consulta para Terapia ABA e Terapia Cognitivo (TCC)
               </h1>
               <p className="text-[14px] lg:text-[16px] font-regular">
@@ -29,7 +29,7 @@ export default function Home() {
                 felicidade, marque sua consulta.
               </p>
             </div>
-            <button className="text-[12px] md:text-[16px] px-10 py-2 rounded-[20px] my-2 w-fit h-fit md:whitespace-nowrap text-white bg-[#00C449] hover:bg-[#137938] transition duration-500 font-semibold">
+            <button className="btn_agendamento text-[12px] md:text-[16px] flex justify-center px-10 py-2 rounded-[20px] my-2 md:w-fit h-fit md:whitespace-nowrap text-white bg-[#00C449] hover:bg-[#137938] transition duration-500 font-semibold">
               <Link
                 href="https://api.whatsapp.com/send/?phone=%2B5511937698342&text=Ol%C3%A1!+Gostaria+de+marcar+uma+consulta+de+ABA+com+a+Psic%C3%B3loga+Hellen.&utm_source=Chat+site&utm_medium=Whatsapp&utm_campaign=Site+hellen+v1"
                 target="_blank"
@@ -64,13 +64,13 @@ export default function Home() {
           <Image
             src={HellenIMG1}
             quality={100}
-            width={350}
-            height={350}
+            width={370}
+            height={370}
             alt="Psicóloga Hellen Pereira"
           />
         </div>
       </section>
-      <section className="flex px-10 md:px-0 justify-center w-full">
+      <section className="flex py-10 md:py-0 px-10 md:px-0 justify-center w-full">
         <div className="w-[1140px] md:px-10 flex flex-col md:flex-row gap-10 items-center">
           <Image
             src={ProblemasCognitivos}
@@ -88,7 +88,7 @@ export default function Home() {
               negativos e comportamentos destrutivos, promovendo bem-estar e
               saúde mental duradouros.
             </span>
-            <Link href="/terapia-cognitiva">
+            <Link href="/terapia-cognitivo">
               <button className="mt-6 text-[12px] md:text-[16px] text-left hover:text-[#000000] transition duration-500 font-semibold flex items-center">
                 Saiba mais <IoIosArrowForward className="ml-2" />
               </button>
@@ -103,7 +103,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <section className="flex px-10 md:px-0 justify-center w-full">
+      <section className="flex py-10 md:py-0 px-10 md:px-0 justify-center w-full">
         <div className="w-[1140px] md:px-10 flex flex-col md:flex-row gap-10 items-center">
           <Image
             src={CriancasTerapia}
@@ -134,11 +134,11 @@ export default function Home() {
           <h2 className="text-[22px] md:text-[30px] text-white font-bold text-center">
             Entramos em contato para marcar sua consulta
           </h2>
-          <button className="px-10 py-2 w-fit rounded-[20px] h-fit text-[#67595E] bg-white hover:bg-[#f7eef1] transition duration-500 font-semibold">
+          <button className="px-10 py-2 w-fit rounded-[20px] h-fit text-[#67595E] whitespace-nowrap bg-white hover:bg-[#f7eef1] transition duration-500 font-semibold">
             <Link
               href="https://api.whatsapp.com/send/?phone=%2B5511937698342&text=Ol%C3%A1!+Gostaria+de+marcar+uma+consulta+de+ABA+com+a+Psic%C3%B3loga+Hellen.&utm_source=Chat+site&utm_medium=Whatsapp&utm_campaign=Site+hellen+v1"
               target="_blank"
-              className="px-10 py-2 w-fit rounded-[20px] h-fit text-[#67595E] bg-white hover:bg-[#f7eef1] transition duration-500 font-semibold"
+              className="btn_ligacao px-10 py-2 w-fit rounded-[20px] h-fit text-[#67595E] bg-white hover:bg-[#f7eef1] transition duration-500 font-semibold"
             >
               RECEBER LIGAÇÃO
             </Link>

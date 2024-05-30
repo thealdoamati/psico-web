@@ -42,7 +42,7 @@ export default function ABA() {
           <Link
             href="https://api.whatsapp.com/send/?phone=%2B5511937698342&text=Ol%C3%A1!+Gostaria+de+marcar+uma+consulta+com+a+Psic%C3%B3loga+Hellen.&utm_source=Chat+site&utm_medium=Whatsapp&utm_campaign=Site+hellen+v1"
             target="_blank"
-            className="px-10 py-2 w-fit rounded-[20px] h-fit text-[#67595E] bg-white hover:bg-[#f7eef1] transition duration-500 font-semibold"
+            className="btn_ligacao px-10 py-2 w-fit whitespace-nowrap rounded-[20px] h-fit text-[#67595E] bg-white hover:bg-[#f7eef1] transition duration-500 font-semibold"
           >
             RECEBER LIGAÇÃO
           </Link>

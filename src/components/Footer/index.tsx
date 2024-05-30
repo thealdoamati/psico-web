@@ -19,10 +19,10 @@ export function Footer() {
             </p>
           </div>
           <div className="flex flex-col items-start gap-4">
-            <span className="font-semibold">TERAPIA COGNITIVA</span>
-            <Link href="/terapia-cognitiva" passHref>
+            <span className="font-semibold">TERAPIA COGNITIVO</span>
+            <Link href="/terapia-cognitivo" passHref>
               <button className="hover:text-[#5e5555] transition duration-300">
-                Terapia Cognitiva
+                Terapia Cognitivo
               </button>
             </Link>
             <Link href="/aba" passHref>
@@ -36,7 +36,7 @@ export function Footer() {
             <Link
               href="https://api.whatsapp.com/send/?phone=%2B5511937698342&text=Ol%C3%A1!+Gostaria+de+marcar+uma+consulta+com+a+Psic%C3%B3loga+Hellen.&utm_source=Chat+site&utm_medium=Whatsapp&utm_campaign=Site+hellen+v1"
               target="_blank"
-              className="hover:text-[#5e5555] transition duration-300 flex gap-2"
+              className="btn_ligacao hover:text-[#5e5555] transition duration-300 flex gap-2"
             >
               <Image src={whatsappIcon} alt="Whatsapp Icon" />
               +55 (11) 93769-8342
@@ -44,7 +44,7 @@ export function Footer() {
             <a
               href="https://maps.app.goo.gl/GpYFzy3guXjxdPus9"
               target="_blank"
-              className="hover:text-[#5e5555] transition duration-300 flex gap-2 text-left"
+              className="btn_maps hover:text-[#5e5555] transition duration-300 flex gap-2 text-left"
             >
               <Image src={locationIcon} alt="Whatsapp Icon" />
               Av. Giovanni Gronchi 6195

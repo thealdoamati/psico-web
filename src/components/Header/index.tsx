@@ -17,9 +17,9 @@ export function Header() {
                 INICIO
               </button>
             </Link>
-            <Link href="/terapia-cognitiva" passHref>
+            <Link href="/terapia-cognitivo" passHref>
               <button className="hover:text-[#7a7272] transition duration-300">
-                TERAPIA COGNITIVA
+                TERAPIA COGNITIVO
               </button>
             </Link>
             <Link href="/aba" passHref>
@@ -36,7 +36,7 @@ export function Header() {
               href="https://api.whatsapp.com/send/?phone=%2B5511937698342&text=Ol%C3%A1!+Gostaria+de+marcar+uma+consulta+com+a+Psic%C3%B3loga+Hellen.&utm_source=Chat+site&utm_medium=Whatsapp&utm_campaign=Site+hellen+v1"
               target="_blank"
             >
-              <button className="px-6 py-2 rounded-[20px] h-fit text-white bg-[#00C449] hover:bg-[#137938] transition duration-500">
+              <button className="btn_agendamento px-6 py-2 rounded-[20px] h-fit text-white bg-[#00C449] hover:bg-[#137938] transition duration-500">
                 Agendar
               </button>
             </Link>
