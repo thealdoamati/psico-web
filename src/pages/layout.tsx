@@ -20,25 +20,26 @@ export default function Layout({ children }: LayoutProps) {
   };
 
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   return (
     <div className="flex flex-col h-screen">
-      <div className={`hidden md:block fixed top-0 z-30 w-full transition-all duration-500 ${scrolled ? 'shadow-md opacity-95 bg-white' : ''}`}>
+      <div
+        className={`hidden md:block fixed top-0 z-30 w-full transition-all duration-500 ${scrolled ? "shadow-md opacity-95 bg-white" : ""}`}
+      >
         <Header />
       </div>
-      <div className={`block md:hidden fixed top-0 z-30 w-full transition-all duration-500 ${scrolled ? 'shadow-md opacity-95 bg-white' : ''}`}>
+      <div
+        className={`block md:hidden fixed top-0 z-30 w-full transition-all duration-500 ${scrolled ? "shadow-md opacity-95 bg-white" : ""}`}
+      >
         <MobileHeader />
       </div>
-      <main className="flex-grow mt-14">
-        {children}
-      </main>
+      <main className="flex-grow mt-14">{children}</main>
       <Footer />
     </div>
-  )
+  );
 }
-

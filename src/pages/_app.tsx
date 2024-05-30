@@ -18,14 +18,26 @@ function MyApp({ Component, pageProps }: AppProps) {
           content="Psicologia, ABA, TCC, Terapia, Psicóloga Hellen Pereira, Terapia Comportamental, São Paulo"
         ></meta>
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Psicóloga Hellen Pereira | Especialista em ABA e TCC" />
+        <meta
+          property="og:title"
+          content="Psicóloga Hellen Pereira | Especialista em ABA e TCC"
+        />
         <meta
           property="og:description"
           content="Descubra como a Terapia ABA e TCC com a Psicóloga Hellen Pereira pode ajudar no desenvolvimento pessoal e melhorar a qualidade de vida."
         />
-        <meta property="og:url" content="http://www.psicologahellenpereira.com.br/" />
-        <meta property="og:image" content="https://www.psicologahellenpereira.com/api/image" />
-        <meta property="og:image:alt" content="Consultório da Psicóloga Hellen Pereira" />
+        <meta
+          property="og:url"
+          content="http://www.psicologahellenpereira.com.br/"
+        />
+        <meta
+          property="og:image"
+          content="https://www.psicologahellenpereira.com/api/image"
+        />
+        <meta
+          property="og:image:alt"
+          content="Consultório da Psicóloga Hellen Pereira"
+        />
       </Head>
       <Component {...pageProps} />
     </Layout>
