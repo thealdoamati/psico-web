@@ -34,13 +34,18 @@ export function MobileHeader() {
       <div className="max-w-[1140px] w-full px-10">
         <div className="flex flex-col">
           <div className="flex justify-between items-center">
-            <Image
-              quality={100}
-              src={logoHellen}
-              alt="Logo Psicóloga Hellen"
-              width={210}
-              height={50}
-            />
+            <Link
+              href="/"
+              className="text-[#67595E] transition duration-300 block text-center"
+            >
+              <Image
+                quality={100}
+                src={logoHellen}
+                alt="Logo Psicóloga Hellen"
+                width={210}
+                height={50}
+              />
+            </Link>
             <button onClick={toggleMenu} className="text-[#67595E] md:hidden">
               <span className="text-2xl">☰</span>
             </button>

@@ -16,7 +16,7 @@ import { AgendeConsulta } from "@/components/Sections/AgendeConsulta";
 export default function Home() {
   return (
     <main className="flex flex-col md:gap-28 bg-[#ffffff]">
-      <section className="w-full mb-5 py-10 md:bg-gradient-to-r pt-10 pb-14 md:py-14 from-[#FFFFFF] to-[#EED6D3]">
+      <section className="w-full mb-5 py-10 md:bg-gradient-to-r pt-7 pb-14 md:py-14 from-[#FFFFFF] to-[#EED6D3]">
         {/* Conteúdo centralizado horizontal e verticalmente */}
         <div className="flex px-10 gap-10 md:gap-20 flex-col md:flex-row max-w-[1140px] justify-between items-center mx-auto">
           <div className="flex flex-col gap-5 lg:gap-4">
