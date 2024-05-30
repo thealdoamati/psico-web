@@ -19,10 +19,10 @@ export function Footer() {
             </p>
           </div>
           <div className="flex flex-col items-start gap-4">
-            <span className="font-semibold">TERAPIA COGNITIVO</span>
+            <span className="font-semibold">TERAPIAS</span>
             <Link href="/terapia-cognitivo" passHref>
               <button className="hover:text-[#5e5555] transition duration-300">
-                Terapia Cognitivo
+                Terapia Cognitivo (TCC)
               </button>
             </Link>
             <Link href="/aba" passHref>
