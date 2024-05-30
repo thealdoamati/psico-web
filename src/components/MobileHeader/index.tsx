@@ -8,7 +8,7 @@ export function MobileHeader() {
   const menuRef = useRef<HTMLDivElement>(null);
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen);
+    setIsOpen((prevState) => !prevState);
   };
 
   const closeMenu = () => {
@@ -28,7 +28,9 @@ export function MobileHeader() {
   }, [menuRef]);
 
   return (
-    <div className="flex justify-center shadow-md py-3 w-full bg-[#ffffff]">
+    <div
+      className={`flex justify-center py-3 w-full ${isOpen ? "shadow-md" : ""} bg-[#ffffff]`}
+    >
       <div className="max-w-[1140px] w-full px-10">
         <div className="flex flex-col">
           <div className="flex justify-between items-center">

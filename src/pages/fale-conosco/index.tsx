@@ -10,7 +10,7 @@ import { AgendeConsulta } from "@/components/Sections/AgendeConsulta";
 
 export default function ABA() {
   return (
-    <main className="flex flex-col gap-10 mt-16 md:gap-20">
+    <main className="flex flex-col gap-10 md:mt-10">
       <Head>
         <title>
           Agende uma Consulta | Psicóloga Hellen Pereira - Especialista em ABA e

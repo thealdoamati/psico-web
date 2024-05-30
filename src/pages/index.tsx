@@ -15,7 +15,7 @@ import FamilyIcon from "../assets/icons/family-icon.svg";
 import { AgendeConsulta } from "@/components/Sections/AgendeConsulta";
 export default function Home() {
   return (
-    <main className="flex flex-col md:gap-40 bg-[#ffffff]">
+    <main className="flex flex-col md:gap-28 bg-[#ffffff]">
       <section className="w-full mb-5 py-10 md:bg-gradient-to-r pt-10 pb-14 md:py-14 from-[#FFFFFF] to-[#EED6D3]">
         {/* Conteúdo centralizado horizontal e verticalmente */}
         <div className="flex px-10 gap-10 md:gap-20 flex-col md:flex-row max-w-[1140px] justify-between items-center mx-auto">
@@ -103,48 +103,50 @@ export default function Home() {
           />
         </div>
       </section>
-      <section className="flex py-10 md:py-0 px-10 md:px-0 justify-center w-full">
-        <div className="w-[1140px] md:px-10 flex flex-col md:flex-row gap-10 items-center">
-          <Image
-            src={CriancasTerapia}
-            alt="Imagem Problemas Terapia Psicólogo"
-            layout="responsive"
-            quality={100}
-          />
-          <div className="flex flex-col gap-0 md:gap-2 text-[#67595E]">
-            <span className="text-[28px] md:text-[46px] font-bold mb-4 md:mb-0">
-              Terapia ABA
-            </span>
-            <span className="text-[14px] md:text-[16px]">
-              Com abordagens baseadas em evidências, oferecemos um caminho
-              personalizado para cada paciente, visando a melhoria contínua e
-              uma vida mais plena e feliz.
-            </span>
-            <Link href="/aba">
-              <button className="mt-6 text-[12px] md:text-[16px] text-left hover:text-[#000000] transition duration-500 font-semibold flex items-center">
-                Saiba mais <IoIosArrowForward className="ml-2" />
-              </button>
-            </Link>
+      <div>
+        <section className="flex mb-10 md:mb-20 py-10 md:py-0 px-10 md:px-0 justify-center w-full">
+          <div className="w-[1140px] md:px-10 flex flex-col md:flex-row gap-10 items-center">
+            <Image
+              src={CriancasTerapia}
+              alt="Imagem Problemas Terapia Psicólogo"
+              layout="responsive"
+              quality={100}
+            />
+            <div className="flex flex-col gap-0 md:gap-2 text-[#67595E]">
+              <span className="text-[28px] md:text-[46px] font-bold mb-4 md:mb-0">
+                Terapia ABA
+              </span>
+              <span className="text-[14px] md:text-[16px]">
+                Com abordagens baseadas em evidências, oferecemos um caminho
+                personalizado para cada paciente, visando a melhoria contínua e
+                uma vida mais plena e feliz.
+              </span>
+              <Link href="/aba">
+                <button className="mt-6 text-[12px] md:text-[16px] text-left hover:text-[#000000] transition duration-500 font-semibold flex items-center">
+                  Saiba mais <IoIosArrowForward className="ml-2" />
+                </button>
+              </Link>
+            </div>
           </div>
-        </div>
-      </section>
-      <AgendeConsulta />
-      <section className="flex justify-center px-10 w-full bg-[#67595E] py-10">
-        <div className="w-[1140px] md:px-10 flex flex-col gap-6 justify-center items-center">
-          <h2 className="text-[22px] md:text-[30px] text-white font-bold text-center">
-            Entramos em contato para marcar sua consulta
-          </h2>
-          <button className="px-10 py-2 w-fit rounded-[20px] h-fit text-[#67595E] whitespace-nowrap bg-white hover:bg-[#f7eef1] transition duration-500 font-semibold">
-            <Link
-              href="https://api.whatsapp.com/send/?phone=%2B5511937698342&text=Ol%C3%A1!+Gostaria+de+marcar+uma+consulta+de+ABA+com+a+Psic%C3%B3loga+Hellen.&utm_source=Chat+site&utm_medium=Whatsapp&utm_campaign=Site+hellen+v1"
-              target="_blank"
-              className="btn_ligacao px-10 py-2 w-fit rounded-[20px] h-fit text-[#67595E] bg-white hover:bg-[#f7eef1] transition duration-500 font-semibold"
-            >
-              RECEBER LIGAÇÃO
-            </Link>
-          </button>
-        </div>
-      </section>
+        </section>
+        <AgendeConsulta />
+        <section className="flex mt-10 justify-center px-10 w-full bg-[#67595E] py-10">
+          <div className="w-[1140px] md:px-10 flex flex-col gap-6 justify-center items-center">
+            <h2 className="text-[22px] md:text-[30px] text-white font-bold text-center">
+              Entramos em contato para marcar sua consulta
+            </h2>
+            <button className="px-10 py-2 w-fit rounded-[20px] h-fit text-[#67595E] whitespace-nowrap bg-white hover:bg-[#f7eef1] transition duration-500 font-semibold">
+              <Link
+                href="https://api.whatsapp.com/send/?phone=%2B5511937698342&text=Ol%C3%A1!+Gostaria+de+marcar+uma+consulta+de+ABA+com+a+Psic%C3%B3loga+Hellen.&utm_source=Chat+site&utm_medium=Whatsapp&utm_campaign=Site+hellen+v1"
+                target="_blank"
+                className="btn_ligacao px-10 py-2 w-fit rounded-[20px] h-fit text-[#67595E] bg-white hover:bg-[#f7eef1] transition duration-500 font-semibold"
+              >
+                RECEBER LIGAÇÃO
+              </Link>
+            </button>
+          </div>
+        </section>
+      </div>
     </main>
   );
 }

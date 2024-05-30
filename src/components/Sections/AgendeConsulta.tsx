@@ -13,7 +13,7 @@ export const AgendeConsulta = () => {
           <span>
             Na região da Vila Andrade, em São Paulo, a Psicóloga Hellen E.
             Pereira recebe seus pacientes com dedicação e expertise. O
-            atendimento é realizado de segunda a sexta, das 12h às 18h.
+            atendimento é realizado de segunda a sexta.
           </span>
           <button className="btn_agendamento text-[12px] md:text-[16px] flex justify-center px-10 py-2 rounded-[20px] my-2 md:w-fit h-fit md:whitespace-nowrap text-white bg-[#169244] hover:bg-[#137938] transition duration-500 font-semibold">
             <Link

@@ -56,17 +56,17 @@ export default function TerapiaCognitivo() {
             className="w-full"
           />
         </div>
-        <div className="absolute top-0 left-0 px-10 md:px-0 w-full h-full flex justify-center items-start mt-14 md:mt-3 md:items-center">
+        <div className="absolute top-0 left-0 px-10 md:px-0 w-full h-full flex justify-center items-start mt-8 md:mt-3 md:items-center">
           {/* Conteúdo centralizado horizontal e verticalmente */}
           <div className="flex md:px-10 flex-col gap-4 lg:gap-10 max-w-[1140px] w-full mx-auto space-y-4 text-center items-start">
             <div className="max-w-[540px] text-left flex flex-col gap-2 md:gap-5">
-              <h1 className="text-[28px] lg:text-[46px] md:leading-[50px] text-white font-bold">
+              <h1 className="text-[28px] lg:text-[46px] leading-[35px] md:leading-[50px] text-white font-bold">
                 Terapia Cognitivo Comportamental
               </h1>
               <p className="text-[14px] lg:text-[18px] font-regular md:font-light text-white">
                 Descubra o poder da Terapia Cognitivo Comportamental (TCC) com a
-                Psicóloga Hellen Pereira, especialista em desbloquear o
-                potencial de sua mente.
+                Psicóloga Hellen Pereira, auxiliando a construir uma vida mais
+                leve através de seus pensamentos.
               </p>
             </div>
             <div className="flex md:flex-row  gap-3 md:gap-0 flex-col bg-[#ffffff]/80 items-center py-8 lg:py-6 px-7 lg:px-10 rounded-xl justify-between w-full">
@@ -102,13 +102,13 @@ export default function TerapiaCognitivo() {
               Terapia Cognitivo Compartamental?
             </span>
             <span className="text-[14px] md:text-[16px] mb-2 md:mb-0">
-              A Terapia Cognitivo Comportamental é uma forma eficaz de tratar
-              uma variedade de problemas psicológicos.
+              A terapia cognitiva comportamental ajuda a identificar e modificar
+              padrões de pensamento disfuncionais e comportamentos.
             </span>
             <span className="text-[14px] md:text-[16px]">
-              Através de estratégias validadas, ajuda a reestruturar pensamentos
-              negativos e comportamentos destrutivos, promovendo bem-estar e
-              saúde mental duradouros.
+              Ela também desenvolve habilidades para lidar com desafios
+              emocionais e comportamentais, promovendo mudanças positivas nas
+              vidas dos pacientes.
             </span>
           </div>
           <Image
