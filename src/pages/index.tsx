@@ -81,7 +81,7 @@ export default function Home() {
           />
           <div className="flex flex-col gap-0 md:gap-3 text-[#67595E]">
             <span className="text-[28px] md:text-[46px] md:leading-[50px] font-bold mb-4 md:mb-0">
-              Terapia Cognitivo Compartamental
+              Terapia Cognitivo Comportamental
             </span>
             <span className="text-[14px] md:text-[16px]">
               Através de estratégias validadas, ajuda a reestruturar pensamentos

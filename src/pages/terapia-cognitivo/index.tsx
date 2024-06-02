@@ -99,7 +99,7 @@ export default function TerapiaCognitivo() {
               Por que escolher a
             </span>
             <span className="text-[28px] md:text-[46px] md:leading-[50px] font-bold mb-4 md:mb-0">
-              Terapia Cognitivo Compartamental?
+              Terapia Cognitivo Comportamental?
             </span>
             <span className="text-[14px] md:text-[16px] mb-2 md:mb-0">
               A terapia cognitiva comportamental ajuda a identificar e modificar
