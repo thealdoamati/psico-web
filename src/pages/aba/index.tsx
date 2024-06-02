@@ -77,11 +77,11 @@ export default function ABA() {
                   através de sessões personalizadas.
                 </p>
               </div>
-              <button className="btn_agendamento text-[10px] md:text-[16px] px-10 py-2 rounded-[20px] my-2 w-fit h-fit md:whitespace-nowrap text-white bg-[#00C449] hover:bg-[#137938] transition duration-500 font-semibold">
+              <button className="text-[10px] md:text-[16px] px-10 py-2 rounded-[20px] my-2 w-fit h-fit md:whitespace-nowrap text-white bg-[#00C449] hover:bg-[#137938] transition duration-500 font-semibold">
                 <Link
                   href="https://api.whatsapp.com/send/?phone=%2B5511937698342&text=Ol%C3%A1!+Gostaria+de+marcar+uma+consulta+de+ABA+com+a+Psic%C3%B3loga+Hellen.&utm_source=Chat+site&utm_medium=Whatsapp&utm_campaign=Site+hellen+v1"
                   target="_blank"
-                  className="flex items-center flex-row gap-3"
+                  className="btn_agendamento flex items-center flex-row gap-3"
                 >
                   <Image src={whatsappIcon} alt="Whatsapp Icon" />
                   AGENDAR CONSULTA
