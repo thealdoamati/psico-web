@@ -34,12 +34,12 @@ export function Footer() {
           <div className="flex flex-col items-start gap-4">
             <span className="font-semibold">ATENDIMENTO</span>
             <Link
-              href="https://api.whatsapp.com/send/?phone=%2B5511937698342&text=Ol%C3%A1!+Gostaria+de+marcar+uma+consulta+com+a+Psic%C3%B3loga+Hellen.&utm_source=Chat+site&utm_medium=Whatsapp&utm_campaign=Site+hellen+v1"
+              href="https://api.whatsapp.com/send/?phone=%2B5511956558397&text=Ol%C3%A1!+Gostaria+de+marcar+uma+consulta+com+a+Psic%C3%B3loga+Hellen.&utm_source=Chat+site&utm_medium=Whatsapp&utm_campaign=Site+hellen+v1"
               target="_blank"
               className="btn_ligacao hover:text-[#5e5555] transition duration-300 flex gap-2"
             >
               <Image src={whatsappIcon} alt="Whatsapp Icon" />
-              +55 (11) 93769-8342
+              +55 (11) 95655-8397
             </Link>
             <a
               href="https://maps.app.goo.gl/GpYFzy3guXjxdPus9"
