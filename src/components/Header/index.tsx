@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import logoHellen from "../../assets/logos/logo-hellen.svg";
 import Link from "next/link";
+import { handleAgendarConsultaClick } from "@/utils/googleTag";
 
 export function Header() {
   return (
@@ -36,7 +37,7 @@ export function Header() {
               href="https://api.whatsapp.com/send/?phone=%2B5511956558397&text=Ol%C3%A1!+Gostaria+de+marcar+uma+consulta+com+a+Psic%C3%B3loga+Hellen.&utm_source=Chat+site&utm_medium=Whatsapp&utm_campaign=Site+hellen+v1"
               target="_blank"
             >
-              <button className="btn_agendamento px-6 py-2 rounded-[20px] h-fit text-white bg-[#00C449] hover:bg-[#137938] transition duration-500">
+              <button onClick={handleAgendarConsultaClick} className="btn_agendamento px-6 py-2 rounded-[20px] h-fit text-white bg-[#00C449] hover:bg-[#137938] transition duration-500">
                 Agendar
               </button>
             </Link>

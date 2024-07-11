@@ -13,6 +13,8 @@ import LocationIcon from "../assets/icons/location-icon2.svg";
 import CameraIcon from "../assets/icons/camera-icon.svg";
 import FamilyIcon from "../assets/icons/family-icon.svg";
 import { AgendeConsulta } from "@/components/Sections/AgendeConsulta";
+import { handleAgendarConsultaClick, handleReceberLigacaoClick } from "@/utils/googleTag";
+
 export default function Home() {
   return (
     <main className="flex flex-col md:gap-28 bg-[#ffffff]">
@@ -29,7 +31,7 @@ export default function Home() {
                 felicidade, marque sua consulta.
               </p>
             </div>
-            <button className="text-[12px] md:text-[16px] flex justify-center md:px-10 py-2 rounded-[20px] my-2 md:w-fit h-fit md:whitespace-nowrap text-white bg-[#00C449] hover:bg-[#137938] transition duration-500 font-semibold">
+            <button onClick={handleAgendarConsultaClick} className="text-[12px] md:text-[16px] flex justify-center md:px-10 py-2 rounded-[20px] my-2 md:w-fit h-fit md:whitespace-nowrap text-white bg-[#00C449] hover:bg-[#137938] transition duration-500 font-semibold">
               <Link
                 href="https://api.whatsapp.com/send/?phone=%2B5511956558397&text=Ol%C3%A1!+Gostaria+de+marcar+uma+consulta+com+a+Psic%C3%B3loga+Hellen.&utm_source=Chat+site&utm_medium=Whatsapp&utm_campaign=Site+hellen+v1"
                 target="_blank"
@@ -135,7 +137,7 @@ export default function Home() {
             <h2 className="text-[22px] md:text-[30px] text-white font-bold text-center">
               Entramos em contato para marcar sua consulta
             </h2>
-            <button className="px-10 py-2 w-fit rounded-[20px] h-fit text-[#67595E] whitespace-nowrap bg-white hover:bg-[#f7eef1] transition duration-500 font-semibold">
+            <button onClick={handleReceberLigacaoClick} className="px-10 py-2 w-fit rounded-[20px] h-fit text-[#67595E] whitespace-nowrap bg-white hover:bg-[#f7eef1] transition duration-500 font-semibold">
               <Link
                 href="https://api.whatsapp.com/send/?phone=%2B5511956558397&text=Ol%C3%A1!+Gostaria+de+receber+ligação+para+marcar+uma+consulta+com+a+Psic%C3%B3loga+Hellen.&utm_source=Chat+site&utm_medium=Whatsapp&utm_campaign=Site+hellen+v1"
                 target="_blank"

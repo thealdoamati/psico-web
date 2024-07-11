@@ -4,6 +4,7 @@ import logoHellen from "../../assets/logos/logo-hellen.svg";
 import whatsappIcon from "../../assets/icons/whatsapp-icon.svg";
 import locationIcon from "../../assets/icons/location-icon.svg";
 import Link from "next/link";
+import { handleReceberLigacaoClick } from "@/utils/googleTag";
 
 export function Footer() {
   return (
@@ -33,14 +34,16 @@ export function Footer() {
           </div>
           <div className="flex flex-col items-start gap-4">
             <span className="font-semibold">ATENDIMENTO</span>
-            <Link
-              href="https://api.whatsapp.com/send/?phone=%2B5511956558397&text=Ol%C3%A1!+Gostaria+de+marcar+uma+consulta+com+a+Psic%C3%B3loga+Hellen.&utm_source=Chat+site&utm_medium=Whatsapp&utm_campaign=Site+hellen+v1"
-              target="_blank"
-              className="btn_ligacao hover:text-[#5e5555] transition duration-300 flex gap-2"
-            >
-              <Image src={whatsappIcon} alt="Whatsapp Icon" />
-              +55 (11) 95655-8397
-            </Link>
+            <button onClick={handleReceberLigacaoClick}>
+              <Link
+                href="https://api.whatsapp.com/send/?phone=%2B5511956558397&text=Ol%C3%A1!+Gostaria+de+marcar+uma+consulta+com+a+Psic%C3%B3loga+Hellen.&utm_source=Chat+site&utm_medium=Whatsapp&utm_campaign=Site+hellen+v1"
+                target="_blank"
+                className="btn_ligacao hover:text-[#5e5555] transition duration-300 flex gap-2"
+              >
+                <Image src={whatsappIcon} alt="Whatsapp Icon" />
+                +55 (11) 95655-8397
+              </Link>
+            </button>
             <a
               href="https://maps.app.goo.gl/GpYFzy3guXjxdPus9"
               target="_blank"

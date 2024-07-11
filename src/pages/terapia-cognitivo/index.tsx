@@ -8,6 +8,7 @@ import whatsappIcon from "../../assets/icons/whatsapp-icon-white.svg";
 import Link from "next/link";
 import Head from "next/head";
 import { AgendeConsulta } from "@/components/Sections/AgendeConsulta";
+import { handleAgendarConsultaClick, handleReceberLigacaoClick } from "@/utils/googleTag";
 
 export default function TerapiaCognitivo() {
   return (
@@ -78,7 +79,7 @@ export default function TerapiaCognitivo() {
                   A Psicóloga Hellen atende em consultório ou por telemedicina.
                 </p>
               </div>
-              <button className="text-[10px] md:text-[16px] px-10 py-2 rounded-[20px] my-2 w-fit h-fit md:whitespace-nowrap text-white bg-[#00C449] hover:bg-[#137938] transition duration-500 font-semibold">
+              <button onClick={handleAgendarConsultaClick} className="text-[10px] md:text-[16px] px-10 py-2 rounded-[20px] my-2 w-fit h-fit md:whitespace-nowrap text-white bg-[#00C449] hover:bg-[#137938] transition duration-500 font-semibold">
                 <Link
                   href="https://api.whatsapp.com/send/?phone=%2B5511956558397&text=Ol%C3%A1!+Gostaria+de+marcar+uma+consulta+de+TCC+com+a+Psic%C3%B3loga+Hellen.&utm_source=Chat+site&utm_medium=Whatsapp&utm_campaign=Site+hellen+v1"
                   target="_blank"
@@ -210,13 +211,15 @@ export default function TerapiaCognitivo() {
             <h2 className="text-[22px] md:text-[30px] text-white font-bold text-center">
               Entramos em contato para marcar sua consulta
             </h2>
-            <Link
-              href="https://api.whatsapp.com/send/?phone=%2B5511956558397&text=Ol%C3%A1!+Gostaria+de+marcar+uma+consulta+de+TCC+com+a+Psic%C3%B3loga+Hellen.&utm_source=Chat+site&utm_medium=Whatsapp&utm_campaign=Site+hellen+v1"
-              target="_blank"
-              className="btn_ligacao px-10 py-2 w-fit rounded-[20px] whitespace-nowrap h-fit text-[#67595E] bg-white hover:bg-[#f7eef1] transition duration-500 font-semibold"
-            >
-              RECEBER LIGAÇÃO
-            </Link>
+            <button onClick={handleReceberLigacaoClick}>
+              <Link
+                href="https://api.whatsapp.com/send/?phone=%2B5511956558397&text=Ol%C3%A1!+Gostaria+de+marcar+uma+consulta+de+TCC+com+a+Psic%C3%B3loga+Hellen.&utm_source=Chat+site&utm_medium=Whatsapp&utm_campaign=Site+hellen+v1"
+                target="_blank"
+                className="btn_ligacao px-10 py-2 w-fit rounded-[20px] whitespace-nowrap h-fit text-[#67595E] bg-white hover:bg-[#f7eef1] transition duration-500 font-semibold"
+              >
+                RECEBER LIGAÇÃO
+              </Link>
+            </button>
           </div>
         </section>
       </div>
